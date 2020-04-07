@@ -45,7 +45,7 @@ http://ww1.microchip.com/downloads/en/devicedoc/doc7679.pdf
 - One you are done with both sides (Gateway and OBD-II device), you can start playing with buttons (keyboard) of the OBD-II device and see the results of the different scenarios implemented on the secreen.  
 ***************************************
 
-** Please note that this implementation is only applicable for AVR-based MCUs.
+** Please note that this implementation is only applicable for AVR-based MCUs. Supporting other MCUs will be added soon. 
 
 ** For further info. Please contact: secureobdii@gmail.com
 

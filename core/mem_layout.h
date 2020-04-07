@@ -5,7 +5,7 @@
 #include <avr/fuse.h>
 
 #ifndef BOOTSIZE
-#error "BOOTSIZE must be defined!"
+#error "BOOTSIZE must be defined first!"
 #endif
 
 #if BOOTSIZE == 1

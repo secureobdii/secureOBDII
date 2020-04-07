@@ -1,3 +1,5 @@
+/* This is the main .c file of the open-source formally-verified pure-software architecture we use*/ 
+
 #include "microvisor.h"
 #include "virt_i.h"
 #include <avr/boot.h>

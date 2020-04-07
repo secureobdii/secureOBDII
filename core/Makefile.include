@@ -38,7 +38,7 @@ LDFLAGS += -T ../core/avr51_bootmem.x
 # 4K bootloader
 #LDFLAGS += -Wl,--section-start=.bootloader=0x1F000 # byte addres, word address = 0xF800
 #CFLAGS += -DBOOTSIZE=4
-### 8K bootloader
+### 8K bootloader -- This is what we use currently!
 LDFLAGS += -Wl,--section-start=.bootloader=0x1E000 # byte addres, word address = 0xF000
 CFLAGS += -DBOOTSIZE=8
 
